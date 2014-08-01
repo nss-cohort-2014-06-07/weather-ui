@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Current Weather for #{zip}
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    a(href='/') Another?
+    #container
+      #temperature= temperature
+      #thermometer
+        #mercury(style='background-color:#{color}; height:#{temperature}%;')
+        #pos25
+        #pos50
+        #pos75
+

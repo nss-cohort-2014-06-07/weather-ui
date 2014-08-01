@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nss-cohort-2014-06-07/weather-ui",
   "dependencies": {
+    "body-parser": "^1.5.2",
     "express": "^4.7.2",
     "jade": "^1.5.0",
     "morgan": "^1.2.2",

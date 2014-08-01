@@ -1,0 +1,55 @@
+#container{
+  height: 300px;
+  position: relative;
+}
+
+#temperature, #thermometer{
+  display: inline-block;
+}
+
+#temperature{
+  font-size: 250px;
+  height: 100%;
+  margin-right: 25px;
+}
+
+#thermometer{
+  position: absolute;
+  height: 100%;
+  width: 75px;
+  top: 0px;
+  border: 1px solid black;
+}
+
+#mercury{
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: -1px;
+  border: 1px solid black;
+}
+
+#pos25{
+  position: absolute;
+  height: 0px;
+  width: 100%;
+  bottom: 25%;
+  border-top: 1px solid black;
+}
+
+#pos50{
+  position: absolute;
+  height: 0px;
+  width: 100%;
+  bottom: 50%;
+  border-top: 1px solid black;
+}
+
+#pos75{
+  position: absolute;
+  height: 0px;
+  width: 100%;
+  bottom: 75%;
+  border-top: 1px solid black;
+}
+
