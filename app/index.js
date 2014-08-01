@@ -29,11 +29,11 @@ app.post('/', function(req, res){
 
     if(temperature <= 32){
       color = 'blue';
-    }else if(temperature >= 33 && temperature <= 70){
+    }else if(temperature > 32 && temperature <= 70){
       color = 'green';
-    }else if(temperature >= 71 && temperature <= 80){
+    }else if(temperature > 70 && temperature <= 80){
       color = 'yellow';
-    }else if(temperature >= 81 && temperature <= 95){
+    }else if(temperature > 80 && temperature <= 95){
       color = 'orange';
     }else{
       color = 'red';
